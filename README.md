@@ -8,6 +8,7 @@ f1-tyre-strategy-simulator/
 ├─ .gitignore
 ├─ pyproject.toml
 ├─ requirements.txt               # (opcional se usar pyproject)
+|- notebooks/
 ├─ data/
 │  ├─ raw/                        # dumps crus de extração (CSV/Parquet)
 │  ├─ interim/                    # dados após limpeza básica
