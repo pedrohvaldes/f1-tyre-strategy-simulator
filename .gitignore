@@ -1,0 +1,36 @@
+# ==========================
+# AMBIENTE PYTHON / VENV
+# ==========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+.eggs/
+.venv/
+venv/
+.env
+.env.*
+
+# DADOS E CACHE
+# ==========================
+# Não versionar dados brutos ou intermediários pesados
+data/raw/
+data/interim/
+data/processed/
+!data/.gitkeep          # se quiser manter a pasta vazia no git
+fastf1_cache/           # cache local do FastF1
+cache/
+outputs/
+models/
+logs/
+
+# ==========================
+# IDEs / SISTEMA OPERACIONAL
+# ==========================
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
