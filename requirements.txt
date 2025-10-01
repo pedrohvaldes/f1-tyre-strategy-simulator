@@ -1,0 +1,19 @@
+# === Core para extração e manipulação de dados ===
+fastf1>=3.4           # API de dados da Fórmula 1
+pandas>=2.2           # manipulação de tabelas
+numpy>=1.26           # operações numéricas
+pyarrow>=15.0         # suporte parquet
+
+# === Visualização e análise exploratória ===
+matplotlib>=3.8       # gráficos simples e boxplots
+seaborn>=0.13         # EDA rápida (opcional)
+
+# === Utilidades ===
+typer>=0.12           # CLI opcional se for usar o cli.py
+rich>=13.7            # logs e saídas bonitas no terminal
+
+# === Ambiente e cache ===
+python-dotenv>=1.0    # se quiser usar variáveis de ambiente (opcional)
+
+# === Desenvolvimento/testes (opcional mas recomendado) ===
+pytest>=8.0           # testes unitários básicos
